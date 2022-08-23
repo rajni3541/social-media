@@ -12,6 +12,10 @@ const corsOptions = {
 
 const app = express();
 
+app.get('/', (req, res) => {
+  res.send("Server running");
+});
+
 app.use(express.json())
 app.options("*" , cors(corsOptions));
 app.use(cors(corsOptions));
