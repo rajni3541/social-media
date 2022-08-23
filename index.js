@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser');
 const SocketServer = require('./socketServer');
 const corsOptions = {
   Credential: 'true',
-  
+  origin: 'https://social-media-frontend-pink.vercel.app'
 };
 
 
