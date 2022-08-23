@@ -68,6 +68,7 @@ const SocketServer = (socket) => {
   //#endregion
 
   //#region //!follow
+  // test
 
   socket.on("follow", (newUser) => {
     const user = users.find((user) => user.id === newUser._id);
